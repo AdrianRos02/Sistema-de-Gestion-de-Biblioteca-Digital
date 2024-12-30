@@ -141,8 +141,6 @@ REST_FRAMEWORK = {
 }
 
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',  # Agrega la URL de tu frontend
-]
+CORS_ALLOWED_ORIGINS = True
 
 AUTH_USER_MODEL = 'biblioteca.Usuario'
